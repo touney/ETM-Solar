@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/fancybox.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/modal-window.css">
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/fancybox.js"></script>
@@ -216,12 +217,13 @@
 				<span class="separator"></span>
 			</li>
 			<li class="animated wow fadeInDown"  data-wow-delay=".2s">
-				
+
 <!--TILAA LINKKI ON href tässä alla-->
-				<a href="#"><img src="img/tilaa.png" alt="Sprölö"/></a> <!--class="icon" -->
-				
+				<a href="#openModal"><img src="img/tilaa.png" alt="Sprölö"/></a> <!--class="icon" -->
+
+
+
 				<span class="separator"></span>
-				<h2>Tilaa nappula</h2>
 				<p>Kuvä yläpuolelle työn alla. Tähän joku velho tekee tekstin joskus.</p>
 			</li>
 			<li class="animated wow fadeInDown"  data-wow-delay=".4s">
@@ -230,7 +232,14 @@
 		</ul>
 	</section><!-- End subscription -->
 
-
+	<div id="openModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h2>Modal Box</h2>
+			<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+			<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+		</div>
+	</div>
 
 	<section class="testimonials wrapper">
 		<div class="title animated wow fadeIn">

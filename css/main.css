@@ -226,13 +226,12 @@ header nav ul li{
     display: block;
     float: left;
     margin-left: 50px;
-		margin-right: 10px;
 }
 
 header nav ul li a{
     text-decoration: none;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
 
     transition:all .2s linear;
     -webkit-transition:all .2s linear;
@@ -248,7 +247,7 @@ header.light nav ul li a:hover{
     color: #B9B9B9;
 }
 
-header.dark nav ul li a{
+header.dark nav ul li a{  
     color: #5d5d5d;
 }
 

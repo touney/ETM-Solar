@@ -225,7 +225,7 @@ header nav ul li{
     list-style: none;
     display: block;
     float: left;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 header nav ul li a{
@@ -247,7 +247,7 @@ header.light nav ul li a:hover{
     color: #B9B9B9;
 }
 
-header.dark nav ul li a{  
+header.dark nav ul li a{
     color: #5d5d5d;
 }
 

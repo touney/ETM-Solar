@@ -217,7 +217,11 @@ header .logo{
 
 header nav{
     float: right;
+<<<<<<< HEAD
     margin-top: 57px;
+=======
+    margin-top: 20px;
+>>>>>>> origin/master
 }
 
 

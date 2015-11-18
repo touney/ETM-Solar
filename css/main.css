@@ -100,7 +100,9 @@ h5, h6          { font-weight: bolder }
 
 
 
-
+.mainHeader {
+  background-color: rgba(0,0,0,0.3);
+}
 
 
 

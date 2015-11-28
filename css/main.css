@@ -335,10 +335,10 @@ header.dark nav ul li a:hover{
 
 .video #play_btn{
     display: inline-block;
-    width:256px;
-    height: 256px;
+    width:200px;
+    height: 200px;
     background: url('../img/play_btn.png') no-repeat;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 

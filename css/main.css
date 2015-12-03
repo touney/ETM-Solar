@@ -96,6 +96,10 @@ h5, h6, h7      { font-weight: bolder }
   line-height: 145%;
 }
 
+.normBold{
+  font-family: "raleway-bold", arial;
+}
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
